@@ -11,8 +11,8 @@ void main() => runApp(MaterialApp(
         ),
         body: Center(
           child: Image(
-            image: NetworkImage(
-                'https://cloudfront-us-east-2.images.arcpublishing.com/reuters/F6INOOMSRRL5XOOQDRPZUWPWBA.jpg'),
+         //   image: NetworkImage('https://cloudfront-us-east-2.images.arcpublishing.com/reuters/F6INOOMSRRL5XOOQDRPZUWPWBA.jpg'), //import photo from internet
+            image: AssetImage('images/Diamond_PNG_Clipart_Image-790.png'), //import phto from local file
           ),
         ),
       ),
